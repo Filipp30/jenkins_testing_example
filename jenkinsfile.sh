@@ -16,5 +16,10 @@ pipeline {
                 echo "Build test completed"
             }
         }
+        stage('Feature branch trigger'){
+            steps{
+                echo "feature"
+            }
+        }
     }
 }
